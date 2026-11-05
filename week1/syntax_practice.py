@@ -4,6 +4,7 @@ def min_max(names: list[str]) -> tuple[str, str]:
 
 
 def main() -> None:
+    # Task 1.
     hl7_segments = ["MSH", "PID", "EVN", "PV1", "PID"]
 
     # Task 2: unique segments via a set
